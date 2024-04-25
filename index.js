@@ -1,3 +1,24 @@
+/*
+
+BASE CASE SCRIPT BY WAEN
+© CREATED BY WAEN
+
+Allah Subhanahu Wa Ta'ala berfirman:
+
+يٰۤاَ يُّهَا الَّذِيْنَ اٰمَنُوْا لِمَ تَقُوْلُوْنَ مَا لَا تَفْعَلُوْنَ
+كَبُرَ مَقْتًا عِنْدَ اللّٰهِ اَنْ تَقُوْلُوْا مَا لَا تَفْعَلُوْنَ
+yaaa ayyuhallaziina aamanuu lima taquuluuna maa laa
+taf'aluun, kaburo maqtan 'ingdallohi ang taquuluu 
+maa laa taf'aluun
+
+ARTINYA : "Wahai orang-orang yang beriman! Mengapa 
+kamu mengatakan sesuatu yang tidak kamu kerjakan?,
+Itu sangatlah dibenci di sisi Allah jika kamu mengatakan 
+apa-apa yang tidak kamu kerjakan."
+(QS. As-Saff 61: Ayat 2 - 3)
+
+*/
+
 require('./settings.js')
 const { default: makeWASocket, useMultiFileAuthState, initInMemoryStore, makeInMemoryStore, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@whiskeysockets/baileys')
 const pino = require('pino')
